@@ -1,0 +1,73 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+body{
+  font-family: 'EB_Garamond', serif;
+  /* background-color: #F5F5F5; */
+  background-color: #F5F5F5;
+}
+
+body button:hover{
+  border-radius: 11px;
+  transition-duration: 0.2s;
+}
+
+body i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #F5F5F5;
+  margin: auto;
+  padding: 0;  
+  width: 100%;
+  z-index: 1;
+  -webkit-animation-name: animateleft;
+  -webkit-animation-duration: 0.5s;
+  animation-name: animateleft;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
+@-webkit-keyframes animateleft {
+  from {left:-300px; opacity:0} 
+  to {left:0; opacity:1}
+}
+
+@keyframes animateleft {
+  from {left:-1000px; opacity:0}
+  to {left:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.owl-dots{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+

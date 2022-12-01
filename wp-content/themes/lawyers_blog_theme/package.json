@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "npx tailwindcss -i ./tailwind.css -o ./style.css --watch"
+  },
+  "dependencies": {
+    "daisyui": "^2.39.1",
+    "flowbite": "^1.5.3",
+    "owl.carousel": "^2.3.4"
+  }
+}
